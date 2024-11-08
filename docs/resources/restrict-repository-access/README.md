@@ -1,3 +1,9 @@
+---
+slug: /restrictRepositoryAccess
+id: restrictRepositoryAccess
+sidebar_position: 4
+---
+
 # Restrict Repository Access
 
 ## Overview
@@ -8,7 +14,7 @@ In a GitOps workflow, repositories that store Kubernetes manifests, Helm charts,
 
 1. **Protect Sensitive Data:** Configuration repositories often contain sensitive infrastructure details that must be kept secure. Unauthorized access could expose sensitive information or lead to misconfigurations that compromise the security of the system.
 2. **Limit Access to Authorized Teams:** Only a small number of people (e.g., from the DevOps team) should have permissions to modify or manage the repository. This ensures that those with the necessary expertise control critical resources while reducing the attack surface.
-3. **Better Access Control:** By separating configuration repositories from source code repositories (as discussed in [Separating Config Vs. Source Code Repositories](separating-config-vs-source-code-repos/README.md)), you ensure that access is granted based on roles and needs, further enforcing the principle of least privilege.
+3. **Better Access Control:** By separating configuration repositories from source code repositories (as discussed in [Separating Config Vs. Source Code Repositories](resources/separating-config-vs-source-code-repos/README.md)), you ensure that access is granted based on roles and needs, further enforcing the principle of least privilege.
 4. **Minimize Risk of Accidental Changes:** Limiting access helps reduce the likelihood of accidental changes by individuals who should not have the ability to modify infrastructure configurations, further protecting production environments.
 
 ## Implementation Steps

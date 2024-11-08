@@ -1,0 +1,19 @@
+{
+    "tabWidth": 2,
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "tabWidth": 4
+        }
+      },
+      {
+        "files": "*.js",
+        "options": {
+          "singleQuote": true
+        }
+      }
+    ],
+    "singleQuote": false
+  }
+  

@@ -1,3 +1,9 @@
+---
+slug: /slsaProvenanceVerification
+id: slsaProvenanceVerification
+sidebar_position: 8
+---
+
 # SLSA Provenance Verification
 
 ## Overview

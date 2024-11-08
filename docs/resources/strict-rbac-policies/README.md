@@ -1,3 +1,9 @@
+---
+slug: /strictRBACPolicies
+id: strictRBACPolicies
+sidebar_position: 4
+---
+
 # Strict RBAC Policies
 
 ## Overview

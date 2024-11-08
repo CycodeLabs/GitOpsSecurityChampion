@@ -1,3 +1,9 @@
+---
+slug: /networkPoliciesEnforcement
+id: networkPoliciesEnforcement
+sidebar_position: 2
+---
+
 # Network Policies Enforcement
 
 ## Overview

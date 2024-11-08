@@ -1,3 +1,9 @@
+---
+slug: /separatingConfig
+id: separatingConfig
+sidebar_position: 6
+---
+
 # Separating Config Vs. Source Code Repositories
 
 ## Overview

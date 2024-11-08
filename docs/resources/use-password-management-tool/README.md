@@ -1,3 +1,9 @@
+---
+slug: /passwordManagement
+id: passwordManagement
+sidebar_position: 7
+---
+
 # Use Password Management Tool
 
 ## Overview

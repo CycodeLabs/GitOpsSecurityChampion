@@ -1,3 +1,9 @@
+---
+slug: /clusterSeparation
+id: clusterSeparation
+sidebar_position: 1
+---
+
 # Cluster Separation
 
 ## Overview

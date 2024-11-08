@@ -1,3 +1,9 @@
+---
+slug: /branchProtectionRules
+id: branchProtectionRules
+sidebar_position: 5
+---
+
 # Branch Protection Rules
 
 ## Overview

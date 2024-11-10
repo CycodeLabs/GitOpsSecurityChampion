@@ -42,6 +42,7 @@ const config = {
         docs: {
           path: 'docs',
           routeBasePath: '/',
+          editUrl: "https://github.com/CycodeLabs/GitOpsSecurityChampion/blob/main/",
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: false,

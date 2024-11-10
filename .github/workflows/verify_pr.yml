@@ -12,6 +12,14 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
+      - uses: cycodelabs/cimon-action@v0
+        with:
+          prevent: true
+          client-id: ${{ secrets.CIMON_CLIENT_ID }}
+          secret: ${{ secrets.CIMON_SECRET }}
+          allowed-hosts: |
+            registry.npmjs.org
+
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 

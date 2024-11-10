@@ -1,4 +1,4 @@
-# GitOpsSecurityChampion
+# GitOps Security Champion
 
 GitOpsSecurityChampion aims to provide security guidelines along with best practices and resources to secure GitOps workflows. GitOps is a modern approach to managing infrastructure and applications through version-controlled configuration files stored in a Git repository. By following security best practices, organizations can ensure the integrity, confidentiality, and availability of their GitOps environments.
 

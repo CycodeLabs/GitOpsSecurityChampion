@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: test
     permissions:
-      contents: read
+      contents: write
       pages: write
     steps:
       - name: Checkout

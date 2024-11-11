@@ -138,7 +138,7 @@ const config = {
         ],
         logo: {
           alt: 'AppSec Security Powered by Cycode',
-          src: 'img/cycode.svg',
+          src: 'https://e5s6t7j5.rocketcdn.me/wp-content/uploads/2020/12/fav2.svg',
           href: 'https://cycode.com',
         },
         copyright: `Copyright © ${new Date().getFullYear()} Cycode Ltd. All Rights Reserved. Built with Docusaurus.`,

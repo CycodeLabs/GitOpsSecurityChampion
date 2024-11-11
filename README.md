@@ -4,7 +4,7 @@
 
 The **GitOps Security Champion** repository is a collection of best practices, guidelines, and tools to help security engineers and DevOps teams implement secure GitOps workflows. With the increasing adoption of GitOps to manage infrastructure and application deployments, it’s crucial to ensure these processes are resilient to security threats. This repository provides foundational security practices to safeguard GitOps environments, from access control to verification of software provenance.
 
-## Why We Started This Project
+## Why GitOps Security Champion?
 
 As GitOps becomes more widely adopted, the need for a comprehensive, security-focused guide has become apparent. While GitOps simplifies operations and enhances scalability, it also introduces new attack vectors if not properly secured. This project aims to fill the gap by offering structured, prioritized best practices that security engineers and DevOps professionals can follow to strengthen their GitOps workflows.
 

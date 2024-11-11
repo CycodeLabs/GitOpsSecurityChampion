@@ -2,7 +2,6 @@
 
 GitOpsSecurityChampion aims to provide security guidelines along with best practices and resources to secure GitOps workflows. GitOps is a modern approach to managing infrastructure and applications through version-controlled configuration files stored in a Git repository. By following security best practices, organizations can ensure the integrity, confidentiality, and availability of their GitOps environments.
 
-
 ## Best Practices
 
 | Best Practice       | Priority | Description                                                                                      | Link                               |
@@ -44,5 +43,10 @@ In a GitOps workflow, repositories that store configuration files such as Kubern
 Branch protection rules are essential for safeguarding critical configuration repositories used in GitOps workflows. These rules ensure that code changes cannot be pushed directly to important branches like `main` or `production` without passing through a controlled process, such as code reviews and automated testing. By enforcing these rules, you ensure that only authorized changes are deployed to your infrastructure.
 
 
+### Use Password Management Tool
+
+Sensitive data such as passwords, API keys, and other secrets should never be kept in plain text in Git repositories. Instead, use a password management tool to securely store and manage these secrets. This practice ensures that sensitive information is protected from unauthorized access and reduces the risk of accidental exposure.
+
 ### SLSA Provenance Verification
+
 Users should always verify the SLSA Provenance produced by the GitOps supplier. For example, ArgoCD publishes a signed SLSA Provenance that should be verified by end users to ensure GitOps integrity.

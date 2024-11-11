@@ -15,7 +15,7 @@ const config = {
   url: 'https://cycodelabs.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/GitOpsSecurityChampion',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -139,7 +139,7 @@ const config = {
         logo: {
           alt: 'AppSec Security Powered by Cycode',
           src: 'img/cycode.svg',
-          href: 'htttps://cycode.com',
+          href: 'https://cycode.com',
         },
         copyright: `Copyright © ${new Date().getFullYear()} Cycode Ltd. All Rights Reserved. Built with Docusaurus.`,
       },

@@ -24,7 +24,3 @@ Role-Based Access Control (RBAC) policies are crucial for restricting access to 
 
 - [Kubernetes RBAC documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [ArgoCD RBAC Best Practices](https://argo-cd.readthedocs.io/en/stable/operator-manual/rbac/)
-
-## Priority Level
-
-- **Gold:** Ensuring strict RBAC policies is a critical step in securing your GitOps workflows. It is essential for protecting access and ensuring compliance with organizational policies.

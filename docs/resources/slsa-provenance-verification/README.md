@@ -24,7 +24,3 @@ Before updating or installing new GitOps tools, users must verify the SLSA Prove
 - [SLSA Framework](https://slsa.dev/)
 - [Verification of ArgoCD Artifacts](https://argo-cd.readthedocs.io/en/stable/operator-manual/signed-release-assets/)
 - [Verification of Flux Artifacts](https://fluxcd.io/blog/2022/02/security-image-provenance/)
-
-## Priority Level
-
-- **Gold:** Critical for ensuring the integrity and authenticity of GitOps tools and minimizing risks from supply chain compromises.

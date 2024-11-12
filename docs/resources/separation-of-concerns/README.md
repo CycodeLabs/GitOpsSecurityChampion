@@ -26,7 +26,3 @@ Separate the GitOps Kubernetes configurations (e.g., manifests) into a dedicated
 
 - [ArgoCD Documentation on Config and Code Separation](https://argo-cd.readthedocs.io/en/stable/)
 - [Flux GitOps Workflow Guide](https://fluxcd.io/docs/)
-
-## Priority Level
-
-- **Gold:** Critical for robust GitOps workflows and ensuring security, manageability, and separation of duties in complex deployments.

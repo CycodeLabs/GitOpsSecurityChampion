@@ -17,8 +17,4 @@ In a GitOps workflow, repositories that store Kubernetes manifests, Helm charts,
 ## Implementation Steps
 
 1. **Keep Repositories Private:** Ensure that GitOps configuration repositories are set to private and restrict any public access.
-2. **Restrict Collaborator Access:** Limit repository access to a small, trusted group of individuals or specific teams, such as the DevOps team, responsible for maintaining the infrastructure. 
-
-## Priority Level
-
-- **Gold:** Critical for maintaining secure GitOps practices, ensuring that only trusted individuals and teams have access to infrastructure configuration.
+2. **Restrict Collaborator Access:** Limit repository access to a small, trusted group of individuals or specific teams, such as the DevOps team, responsible for maintaining the infrastructure.

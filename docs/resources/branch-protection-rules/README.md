@@ -30,7 +30,3 @@ Branch protection rules are essential for ensuring the integrity and security of
 
 - [GitHub Branch Protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
 - [GitLab Protected Branches](https://docs.gitlab.com/ee/user/project/protected_branches.html)
-
-## Priority Level
-
-- **Gold:** Critical for maintaining the security and stability of the GitOps workflow by enforcing pull requests, status checks, signed commits, and preventing unauthorized history rewrites.

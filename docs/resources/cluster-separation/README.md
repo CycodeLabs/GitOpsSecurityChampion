@@ -21,7 +21,3 @@ Cluster separation in GitOps involves hosting the GitOps control plane on a dist
 1. **Set Up a Dedicated GitOps Cluster:** Deploy your GitOps tool in a separate Kubernetes cluster, isolated from production and staging clusters.
 2. **Enforce Network Isolation:** Use network policies to prevent the application clusters from directly communicating with the GitOps cluster, allowing access only for necessary pull and deployment operations.
 3. **Monitor for Anomalies:** Set up logging and monitoring specifically for the GitOps cluster to alert on any suspicious activities.
-
-## Priority Level
-
-- **Gold:** Foundational for maintaining GitOps security and minimizing the risk of cascading compromises.

@@ -46,7 +46,3 @@ The default behavior for network policy enforcement varies across major cloud pr
 - [CNI Plugins in Kubernetes](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/)
 - [Network Policies SUSE Knowledge Base article](https://www.suse.com/support/kb/doc/?id=000020041)
 - [Cilium Network Policies and eBPF on GCP](https://cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2)
-
-## Priority Level
-
-- **Gold:** Essential for secure GitOps deployments, providing robust access control and minimizing risk.

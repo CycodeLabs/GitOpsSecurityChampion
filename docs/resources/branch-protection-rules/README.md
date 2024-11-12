@@ -8,7 +8,7 @@ sidebar_position: 5
 
 ## Overview
 
-Branch protection rules are essential for ensuring the integrity and security of the GitOps workflow. These rules enforce strict conditions that must be met before changes can be merged into critical branches, such as `main` or `production`. By requiring pull requests, status checks, code reviews, and other safeguards, these rules help prevent unauthorized or insecure changes from being deployed to production systems.
+Branch protection rules are essential for ensuring the integrity and security of the GitOps workflow. These rules enforce strict conditions that must be met before changes can be merged into critical branches, such as `main` or `production`. By requiring pull requests, status checks, code reviews, and other safeguards, these rules help prevent unauthorized or insecure changes from reaching production systems.
 
 ## Why It’s Important
 
@@ -25,13 +25,6 @@ Branch protection rules are essential for ensuring the integrity and security of
    - **Require Code Reviews:** Specify a minimum number of approvals required before merging, ensuring changes are properly reviewed by the team.
 
 2. **Configure Automated Status Checks:** Set up automated workflows for linting, secret scanning, dependency checks, and other tests to run on every pull request. These status checks should be required to pass before a pull request can be merged.
-
-## Best Practices
-
-- **Require Status Checks to Pass Before Merging:** Ensure that automated tests, including linting, secret scanning, end-to-end tests, and sanity checks, pass before a pull request can be merged. These checks validate that the code is secure and functional, minimizing the risk of introducing issues or vulnerabilities into the main branch.
-- **Use Code Reviews:** Require peer reviews to catch issues that automated tests might miss and provide a second layer of validation for changes.
-- **Disable Force Pushes:** Prevent force pushes to critical branches to maintain the integrity of the commit history and prevent accidental or malicious changes.
-- **Signed Commits:** Require all commits to be signed, ensuring the authenticity of the code and preventing unauthorized code changes.
 
 ## Additional Resources
 

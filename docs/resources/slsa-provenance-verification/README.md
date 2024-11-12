@@ -8,27 +8,16 @@ sidebar_position: 8
 
 ## Overview
 
-Before updating or installing new GitOps tools, users should always verify the SLSA Provenance produced by the GitOps supplier. SLSA (Supply Chain Levels for Software Artifacts) is a framework that ensures the integrity and security of software artifacts. By verifying the provenance of GitOps tools, users can ensure that the tools were built securely and haven't been tampered with during the supply chain process. Tools like ArgoCD, for instance, publish signed SLSA Provenance that should be verified by the end users.
+Before updating or installing new GitOps tools, users must verify the SLSA Provenance provided by the GitOps supplier. SLSA (Supply Chain Levels for Software Artifacts) is a framework designed to ensure the integrity and security of software artifacts. Verifying the provenance of GitOps tools ensures they are built securely and haven't been tampered with during the supply chain process. For example, tools like ArgoCD publish signed SLSA Provenance, which end users should verify.
 
 ## Why It’s Important
 
-1. **Tool Integrity:** Verifying SLSA Provenance ensures the GitOps tool being installed or updated is legitimate and has not been altered or compromised.
-2. **Prevent Supply Chain Attacks:** Supply chain attacks can manipulate software at any point in its development lifecycle. Verifying SLSA Provenance helps to ensure that the tool's origin and build history are trustworthy.
-3. **Auditable Build History:** SLSA Provenance provides an auditable record of the build process, which is crucial for understanding and validating the security of the software.
+1. **Prevent Supply Chain Attacks:** Verifying the SLSA Provenance ensures that the GitOps tool being installed or updated is legitimate and has not been tampered with or compromised. SLSA Provenance provides a verifiable record of the build process, which is essential for validating the security of the software and identifying potential vulnerabilities. 
 
 ## Implementation Steps
 
-1. **Verify the SLSA Provenance Document:**
-   - Use appropriate tooling to validate the signature of the SLSA Provenance document. This ensures that the document hasn't been tampered with and is legitimate.
-3. **Verify Build History:**
-   - Ensure that the SLSA Provenance includes a complete, secure, and verifiable build history. Investigate any discrepancies if present.
-4. **Use Trusted Sources:**
-   - Only install or update GitOps tools from verified and trusted sources (e.g., official GitHub repositories, verified release channels).
-
-## Best Practices
-
-- **Automate Verification:** Integrate automated provenance verification into your CI/CD pipeline to ensure every installation and update of GitOps tools is validated.
-- **Cross-Verify Provenance:** Cross-check provenance signatures across tools and updates to ensure the integrity of the GitOps toolset is maintained over time.
+1. **Use Trusted Sources:** Only install or update GitOps tools from trusted sources, such as official GitHub repositories or verified release channels, to minimize the risk of compromise. 
+2. **Verify the SLSA Provenance:** Use appropriate tools to validate the signature of the SLSA Provenance document, ensuring it hasn’t been tampered with and is authentic. 
 
 ## Additional Resources
 

@@ -1,3 +1,11 @@
+<a href="https://cycode.com/cygives/" alt="GitOps Security Champion is part of Cygives, the community hub for free & open developer security tools."/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./static/Cygives-darkmode.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./static/Cygives-lightmode.svg">
+    <img alt="Cygives Banner" src="./static/Cygives-lightmode.svg">
+  </picture>
+</a>
+
 # GitOps Security Champion
 
 ## Overview

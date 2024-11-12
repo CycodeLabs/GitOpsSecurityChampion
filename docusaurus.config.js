@@ -126,6 +126,10 @@ const config = {
             title: 'Resources',
             items: [
               {
+                label: 'Blogs',
+                href: 'https://cycode.com/blog/',
+              },
+              {
                 label: 'Resources',
                 href: 'https://cycode.com/resources/',
               },

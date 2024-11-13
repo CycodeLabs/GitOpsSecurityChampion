@@ -1,10 +1,10 @@
 ---
-slug: /passwordManagement
-id: passwordManagement
+slug: /secureSecretStorage
+id: secureSecretStorage
 sidebar_position: 7
 ---
 
-# Use Password Management Tool
+# Secure Secret Storage
 
 ## Overview
 

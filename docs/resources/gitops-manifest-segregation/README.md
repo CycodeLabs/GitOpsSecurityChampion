@@ -1,10 +1,10 @@
 ---
-slug: /separatingConfig
-id: separatingConfig
-sidebar_position: 6
+slug: /gitOpsManifestSegregation
+id: gitOpsManifestSegregation
+sidebar_position: 2
 ---
 
-# Separation Of Concerns
+# GitOps Manifest Segregation
 
 ## Overview
 Separate the GitOps Kubernetes configurations (e.g., manifests) into a dedicated Git repository, distinct from your GitOps managed application source code. Isolating application configuration from the codebase enhances deployment control, simplifies auditing, and prevents unintended CI/CD pipeline triggers due to minor configuration changes.

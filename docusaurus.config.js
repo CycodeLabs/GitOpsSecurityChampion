@@ -163,6 +163,16 @@ const config = {
         ],
       },
     }),
+
+    plugins: [
+      [
+        '@docusaurus/plugin-google-gtag',
+        {
+          trackingID: 'G-LC0HLNTX9K',
+          anonymizeIP: true,
+        },
+      ],
+    ]
 };
 
 module.exports = config;

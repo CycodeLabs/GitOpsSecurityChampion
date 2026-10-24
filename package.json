@@ -14,12 +14,12 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.5.2",
+    "@docusaurus/core": "^3.10.1-canary-6591",
     "@docusaurus/module-type-aliases": "^3.5.2",
-    "@docusaurus/plugin-google-analytics": "^3.5.2",
-    "@docusaurus/plugin-google-gtag": "^3.5.2",
-    "@docusaurus/preset-classic": "^3.5.2",
-    "@docusaurus/theme-mermaid": "^3.5.2",
+    "@docusaurus/plugin-google-analytics": "^3.9.2-canary-6572",
+    "@docusaurus/plugin-google-gtag": "^3.9.2-canary-6572",
+    "@docusaurus/preset-classic": "^3.9.2-canary-6572",
+    "@docusaurus/theme-mermaid": "^3.9.2-canary-6572",
     "prism-react-renderer": "^2.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
